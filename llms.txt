@@ -172,4 +172,4 @@ Notes: Service pages describe what we offer and how we work. Pricing and timelin
 - [SEO](https://jewellerstudio.com/website-ecommerce/seo/): Search optimisation so customers can find your site on Google.
 
 ## Optional
-- [Sitemap](https://jewellerstudio.com/sitemap.xml)
+- [Sitemap index](https://jewellerstudio.com/sitemap.xml)
