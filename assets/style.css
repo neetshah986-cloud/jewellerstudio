@@ -225,3 +225,4 @@ a.tile:hover h3{color:var(--garnet);text-decoration:underline}
 .help-l a{color:var(--gd);font-weight:600}
 @media(max-width:700px){.help-t{display:none}.help summary{width:56px;padding:0}body{padding-bottom:0!important}}
 @media(prefers-reduced-motion:reduce){.help summary{transition:none}}
+.help-call{display:inline-flex;align-items:center;gap:7px}
