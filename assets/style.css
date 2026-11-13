@@ -293,3 +293,4 @@ main>.block:last-child{padding-bottom:88px}
 @media(max-width:860px){.calc{grid-template-columns:1fr}.cres{position:static}}
 @media(max-width:420px){.crow{grid-template-columns:1fr}.cc,.cres{padding:20px}}
 .block .cres .btn.ghost{color:var(--pearl);border-color:rgba(224,194,122,.7)}.block .cres .btn.ghost:hover{background:rgba(224,194,122,.16)}
+.cl small{opacity:.75;font-size:.8rem}.cl.cok b{color:#9fe3b0}.cl.cbad b{color:#ffb4a8}

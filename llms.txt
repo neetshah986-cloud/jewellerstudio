@@ -21,6 +21,7 @@ Notes: Service pages describe what we offer and how we work. Pricing and timelin
 - [Jewellery Price Calculator](https://jewellerstudio.com/tools/jewellery-price-calculator/): Metal value, making charges, GST and total for any jewellery
 - [Gold Price Calculator](https://jewellerstudio.com/tools/gold-price-calculator/): Gold jewellery price with purity (24K, 22K, 18K), wastage, making and GST
 - [Silver Price Calculator](https://jewellerstudio.com/tools/silver-price-calculator/): Silver price with purity (999, 925, 800), making charges and GST
+- [Gifting Budget Calculator](https://jewellerstudio.com/tools/gifting-budget-calculator/): Plan customer, wedding or staff gifts with packaging, GST, spares and a budget check
 
 ## Digital Marketing
 - [Digital Marketing overview](https://jewellerstudio.com/digital-marketing/): Digital marketing for jewellery brands: social media management, reels, influencer marketing, Meta Ads, YouTube and WhatsApp marketing, and lead campaigns.
