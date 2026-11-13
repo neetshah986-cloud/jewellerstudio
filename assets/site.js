@@ -16,3 +16,4 @@ document.addEventListener("keydown",function(e){if(e.key!=="Escape")return;var o
 function mq(){closeAll(null);if(dm.matches){cats.forEach(function(c){cat(c,true)});burger(false)}}
 dm.addEventListener("change",mq);mq()})();
 (function(){var d=document.getElementById("help");if(!d)return;document.addEventListener("click",function(e){if(d.open&&!d.contains(e.target))d.open=false});document.addEventListener("keydown",function(e){if(e.key==="Escape"&&d.open){d.open=false;d.querySelector("summary").focus()}})})();
+;(function(){document.querySelectorAll(".steps li").forEach(function(li){li.setAttribute("tabindex","0");li.addEventListener("click",function(){if(matchMedia("(hover:none)").matches)li.classList.toggle("flip")});li.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" "){e.preventDefault();li.classList.toggle("flip")}})})})();
