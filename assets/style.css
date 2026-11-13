@@ -228,3 +228,21 @@ a.tile:hover h3{color:var(--garnet);text-decoration:underline}
 .help-call{display:inline-flex;align-items:center;gap:7px}
 .faddr{max-width:30ch}
 .prose h2{max-width:none}
+
+/* hero orbit */
+.hero{overflow:hidden}
+.orbit{container-type:inline-size;position:relative;width:100%;max-width:430px;aspect-ratio:1;justify-self:center}
+.orbit::before,.orbit::after{content:"";position:absolute;border-radius:50%;border:1px solid rgba(224,194,122,.28)}
+.orbit::before{inset:6%}.orbit::after{inset:27%;border-style:dashed;border-color:rgba(224,194,122,.2)}
+.core{position:absolute;left:50%;top:50%;width:34cqw;height:34cqw;transform:translate(-50%,-50%);border-radius:50%;display:grid;place-items:center;text-align:center;background:radial-gradient(circle at 35% 30%,#F1DDA3,#B48A3C 70%,#8A6420);color:#2C0816;box-shadow:0 0 0 8px rgba(224,194,122,.12),0 0 60px rgba(224,194,122,.35);font:500 4.8cqw/1.15 var(--serif);padding:3cqw}
+.orbit .spin{position:absolute;inset:0;animation:ospin 80s linear infinite}
+.orbit .it{position:absolute;left:50%;top:50%;width:0;height:0;transform:rotate(var(--a)) translateY(-40cqw)}
+.orbit .up{position:absolute;left:0;top:0;animation:ounspin 80s linear infinite}
+.orbit .it a{position:absolute;white-space:nowrap;transform:translate(-50%,-50%) rotate(calc(var(--a)*-1));padding:6px 12px;border-radius:999px;background:rgba(246,243,239,.1);border:1px solid rgba(224,194,122,.5);color:var(--pearl);font-size:max(.74rem,3.1cqw);text-decoration:none;backdrop-filter:blur(2px)}
+.orbit .it a:hover,.orbit .it a:focus-visible{background:rgba(224,194,122,.28);border-color:var(--lgold)}
+.orbit .it a:focus-visible{outline:2px solid var(--lgold);outline-offset:2px}
+.orbit:hover .spin,.orbit:hover .up,.orbit:focus-within .spin,.orbit:focus-within .up{animation-play-state:paused}
+@keyframes ospin{to{transform:rotate(360deg)}}@keyframes ounspin{to{transform:rotate(-360deg)}}
+@media(max-width:960px){.orbit{max-width:340px}}
+@media(prefers-reduced-motion:reduce){.orbit .spin,.orbit .up{animation:none}}
+@media(max-width:420px){.orbit .it{transform:rotate(var(--a)) translateY(-35cqw)}.orbit::before{inset:14%}.orbit::after{inset:33%}.orbit .core{width:28cqw;height:28cqw;font-size:4.4cqw}.orbit .it a{padding:4px 8px;font-size:.68rem}}
