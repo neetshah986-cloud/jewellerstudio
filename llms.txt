@@ -27,6 +27,8 @@ Notes: Service pages describe what we offer and how we work. Pricing and timelin
 - [Old Jewellery Exchange Calculator](https://jewellerstudio.com/tools/old-jewellery-exchange-calculator/): Estimate the value of old jewellery when exchanging or selling, with stone weight and the jeweller's deduction
 - [Old Gold Exchange Calculator](https://jewellerstudio.com/tools/old-gold-exchange-calculator/): Old gold value with purity, stone weight and deduction
 - [Old Silver Exchange Calculator](https://jewellerstudio.com/tools/old-silver-exchange-calculator/): Old silver value with purity, stone weight and deduction
+- [Gold Jewellery Investment Calculator](https://jewellerstudio.com/tools/gold-jewellery-investment-calculator/): Break-even gold price after making charges, GST and resale deduction, with a price-change table
+- [Silver Jewellery Investment Calculator](https://jewellerstudio.com/tools/silver-jewellery-investment-calculator/): Break-even silver price after making charges, GST and resale deduction, with a price-change table
 
 ## Digital Marketing
 - [Digital Marketing overview](https://jewellerstudio.com/digital-marketing/): Digital marketing for jewellery brands: social media management, reels, influencer marketing, Meta Ads, YouTube and WhatsApp marketing, and lead campaigns.
