@@ -143,7 +143,7 @@ nav#nav .btn.sm{margin-top:22px;width:100%}
 }
 @media(max-width:420px){.logo{font-size:1.1rem;gap:7px}}
 
-@media(min-width:1240px) and (max-width:1339px){nav#nav{gap:16px}.nav-chev{width:20px}}
+@media(min-width:1240px){nav#nav{gap:clamp(22px,2.4vw,34px)}.nav-item>.nav-btn:not(.nav-chev){padding-right:8px}}
 .fgrid p a{color:var(--lgold);text-decoration:none}.fgrid p a:hover{text-decoration:underline}
 
 .phero{background:radial-gradient(55% 80% at 85% 40%,rgba(180,138,60,.28),transparent 62%),linear-gradient(160deg,var(--garnet),var(--deep));color:var(--pearl);padding:22px 0 84px}
