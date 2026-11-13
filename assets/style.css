@@ -334,19 +334,25 @@ h2[id]{scroll-margin-top:90px}
 .steps li span::before{content:"\2726";font-size:1.7rem;line-height:1;color:var(--gold)}
 @media(max-width:700px){.steps li{height:168px}.steps li b::before{font-size:2.8rem}}
 @media(prefers-reduced-motion:reduce){.steps li b,.steps li span{transition:none}}
-/* Where to start: hallmark label links */
+/* Side cards: hallmark labels */
 .week.ptags{background:none;box-shadow:none;padding:0;border-radius:0}
 .week.ptags .wkt{color:#fff;font-size:1.55rem;margin-bottom:6px}
 .week.ptags ul{margin:14px 0 0;display:flex;flex-direction:column;gap:12px;counter-reset:o}
-.week.ptags li{display:block;padding:0;border:0;position:relative;counter-increment:o}
-.week.ptags li a{position:relative;display:block;padding:12px 64px 12px 52px;background:#fffdf8;border-left:6px solid var(--gold);border-radius:6px 12px 12px 6px;color:var(--garnet);font:500 1.08rem/1.3 var(--serif);text-decoration:none;box-shadow:0 6px 0 -3px rgba(0,0,0,.25);transition:transform .3s}
-.week.ptags li a::before{content:"Option 0" counter(o);display:block;font:600 .62rem/1.4 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--gd)}
-.week.ptags li a::after{content:"";position:absolute;right:56px;top:10px;bottom:10px;margin:0;border-left:1.5px dashed rgba(180,138,60,.55)}
-.week.ptags li::before{content:"";position:absolute;left:24px;top:50%;width:12px;height:12px;margin-top:-6px;border-radius:50%;background:var(--garnet);box-shadow:inset 0 0 0 3px #d8c08a;z-index:1;transition:transform .3s}
-.week.ptags li::after{content:"\2192";position:absolute;right:12px;top:50%;width:30px;height:30px;margin-top:-15px;border-radius:50%;display:grid;place-items:center;background:var(--garnet);color:var(--lgold);pointer-events:none;transition:.3s}
-.week.ptags li:hover a,.week.ptags li:focus-within a{transform:translateX(8px)}
-.week.ptags li:hover::before,.week.ptags li:focus-within::before{transform:translateX(8px)}
-.week.ptags li:hover::after,.week.ptags li:focus-within::after{transform:translateX(8px);background:var(--gold);color:#fff}
-.week.ptags li a:focus-visible{outline:2px solid var(--lgold);outline-offset:3px}
+.week.ptags li{display:block;position:relative;counter-increment:o;padding:13px 18px 13px 50px;background:#fffdf8;border:0;border-left:6px solid var(--gold);border-radius:6px 12px 12px 6px;color:var(--ink);font-size:.97rem;line-height:1.45;box-shadow:0 6px 0 -3px rgba(0,0,0,.25);transition:transform .3s}
+.week.ptags li::before{content:"";position:absolute;left:24px;top:50%;width:12px;height:12px;margin-top:-6px;border-radius:50%;background:var(--garnet);box-shadow:inset 0 0 0 3px #d8c08a;transition:transform .3s}
 .week.ptags p:not(.wkt){color:rgba(246,243,239,.82);font-size:.92rem;margin-top:18px}
-@media(prefers-reduced-motion:reduce){.week.ptags li a,.week.ptags li::before,.week.ptags li::after{transition:none}}
+/* facts: caption + value */
+.week.ptags.k-facts li b{display:block;flex:none;margin:0 0 2px;font:600 .66rem/1.4 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--gd)}
+.week.ptags.k-facts li span{display:block;font:500 1.02rem/1.35 var(--serif);color:var(--garnet)}
+/* plain text lines */
+.week.ptags.k-text li{font-weight:600;color:var(--garnet)}
+/* links: arrow button + tear-off line */
+.week.ptags.k-links li{padding:0}
+.week.ptags.k-links li a{position:relative;display:block;padding:12px 64px 12px 50px;color:var(--garnet);font:500 1.08rem/1.3 var(--serif);text-decoration:none}
+.week.ptags.k-links li a::after{content:"";position:absolute;right:56px;top:10px;bottom:10px;margin:0;border-left:1.5px dashed rgba(180,138,60,.55)}
+.week.ptags.k-links li::after{content:"\2192";position:absolute;right:12px;top:50%;width:30px;height:30px;margin-top:-15px;border-radius:50%;display:grid;place-items:center;background:var(--garnet);color:var(--lgold);pointer-events:none;transition:.3s}
+.week.ptags.k-links li:hover,.week.ptags.k-links li:focus-within{transform:translateX(8px)}
+.week.ptags.k-links li:hover::after,.week.ptags.k-links li:focus-within::after{background:var(--gold);color:#fff}
+.week.ptags.k-links li a:focus-visible{outline:2px solid var(--lgold);outline-offset:3px}
+.week.ptags.numd li a::before{content:"Option 0" counter(o);display:block;font:600 .62rem/1.4 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--gd)}
+@media(prefers-reduced-motion:reduce){.week.ptags li,.week.ptags li::after{transition:none}}
