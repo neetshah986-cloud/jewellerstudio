@@ -208,3 +208,20 @@ a.tile:hover h3{color:var(--garnet);text-decoration:underline}
 .person .avatar.ini{display:flex;align-items:center;justify-content:center;background:linear-gradient(150deg,var(--garnet),var(--deep));color:var(--lgold);font:500 2rem var(--serif);border:3px solid #fff}
 .people{grid-template-columns:repeat(3,1fr)}@media(max-width:900px){.people{grid-template-columns:1fr}}
 .people{margin-bottom:64px}
+/* floating help */
+.help{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:40;font-family:var(--sans)}
+.help summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;height:56px;min-width:56px;padding:0 18px;border-radius:999px;background:linear-gradient(150deg,var(--garnet),var(--deep));color:var(--lgold);box-shadow:0 14px 30px -10px rgba(44,8,22,.6),0 0 0 1px rgba(224,194,122,.45);font-weight:600;font-size:.95rem;justify-content:center;transition:transform .2s}
+.help summary::-webkit-details-marker{display:none}
+.help summary:hover{transform:translateY(-2px)}
+.help summary:focus-visible{outline:3px solid var(--lgold);outline-offset:3px}
+.help[open] summary{box-shadow:0 14px 30px -10px rgba(44,8,22,.6),0 0 0 2px var(--gold)}
+.help-p{position:absolute;right:0;bottom:70px;width:min(340px,calc(100vw - 32px));max-height:calc(100vh - 130px);overflow-y:auto;background:#fff;color:var(--ink);border:1px solid var(--mist);border-radius:20px;padding:20px;box-shadow:0 30px 60px -24px rgba(44,8,22,.55)}
+.help-h{font:500 1.35rem var(--serif);margin:0 0 4px}
+.help-s{margin:0 0 14px;color:var(--muted);font-size:.92rem;line-height:1.5}
+.help-c{display:flex;flex-wrap:wrap;gap:8px}
+.help-c a{padding:9px 14px;border:1px solid var(--gold);border-radius:999px;color:var(--ink);text-decoration:none;font-size:.9rem;font-weight:500}
+.help-c a:hover{background:rgba(180,138,60,.16)}
+.help-l{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:16px;padding-top:14px;border-top:1px solid var(--mist);font-size:.92rem}
+.help-l a{color:var(--gd);font-weight:600}
+@media(max-width:700px){.help-t{display:none}.help summary{width:56px;padding:0}body{padding-bottom:0!important}}
+@media(prefers-reduced-motion:reduce){.help summary{transition:none}}

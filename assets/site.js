@@ -14,4 +14,5 @@ bg.addEventListener("click",function(){var o=!h.classList.contains("nav-open");i
 document.addEventListener("click",function(e){if(dm.matches&&!e.target.closest(".nav-item"))closeAll(null)});
 document.addEventListener("keydown",function(e){if(e.key!=="Escape")return;var o=items.filter(function(i){return i.classList.contains("open")})[0];if(dm.matches){closeAll(null);if(o)o.querySelector(".nav-btn").focus()}else if(h.classList.contains("nav-open")){burger(false);bg.focus()}});
 function mq(){closeAll(null);if(dm.matches){cats.forEach(function(c){cat(c,true)});burger(false)}}
-dm.addEventListener("change",mq);mq()})()
+dm.addEventListener("change",mq);mq()})();
+(function(){var d=document.getElementById("help");if(!d)return;document.addEventListener("click",function(e){if(d.open&&!d.contains(e.target))d.open=false});document.addEventListener("keydown",function(e){if(e.key==="Escape"&&d.open){d.open=false;d.querySelector("summary").focus()}})})();
