@@ -370,3 +370,4 @@ h2[id]{scroll-margin-top:90px}
 @keyframes htsw{0%,100%{rotate:-4deg}50%{rotate:4deg}}
 @media(max-width:960px){.band{padding-top:188px}.htag{right:50%;margin-right:-95px;top:0;transform:scale(.85);transform-origin:50% 0}.htag::before{height:60px}}
 @media(prefers-reduced-motion:reduce){.htag{animation:none}}
+.faq summary h3{margin:0;font:inherit;color:inherit;flex:1;min-width:0}
