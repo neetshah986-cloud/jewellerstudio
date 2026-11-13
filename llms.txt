@@ -171,5 +171,9 @@ Notes: Service pages describe what we offer and how we work. Pricing and timelin
 - [Website Content Development](https://jewellerstudio.com/website-ecommerce/website-content-development/): Page copy and content written for your jewellery brand.
 - [SEO](https://jewellerstudio.com/website-ecommerce/seo/): Search optimisation so customers can find your site on Google.
 
+## Blog
+- [Blog](https://jewellerstudio.com/blog/): Articles for jewellers
+- [Why Digital Marketing Is Important for Every Jewellery Brand](https://jewellerstudio.com/blog/why-digital-marketing-is-important-for-jewellers/): Why customers research jewellery online first and how a jeweller can start simply with digital marketing
+
 ## Optional
 - [Sitemap index](https://jewellerstudio.com/sitemap.xml)

@@ -227,3 +227,4 @@ a.tile:hover h3{color:var(--garnet);text-decoration:underline}
 @media(prefers-reduced-motion:reduce){.help summary{transition:none}}
 .help-call{display:inline-flex;align-items:center;gap:7px}
 .faddr{max-width:30ch}
+.prose h2{max-width:none}
