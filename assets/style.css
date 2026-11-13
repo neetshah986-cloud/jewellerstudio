@@ -321,10 +321,11 @@ main>.block:last-child{padding-bottom:88px}
 @media(min-width:1240px){#megat .mega-in{grid-template-columns:repeat(4,minmax(0,1fr))}}
 h2[id]{scroll-margin-top:90px}
 /* flip gift-card steps */
-.steps{perspective:1400px}
-.steps li{position:relative;height:216px;padding:0;background:none;border:0;border-radius:var(--r);transform-style:preserve-3d;transition:transform .7s cubic-bezier(.2,.7,.2,1);cursor:pointer;outline:none}
+.steps li{position:relative;height:216px;padding:0;background:none;border:0;border-radius:var(--r);perspective:1200px;cursor:pointer;outline:none}
 .steps li::before{content:none}
-.steps li:hover,.steps li:focus-visible,.steps li.flip{transform:rotateY(180deg)}
+.steps li b,.steps li span{transition:transform .9s cubic-bezier(.45,.05,.25,1)}
+.steps li:hover b,.steps li:focus-visible b,.steps li.flip b{transform:rotateY(-180deg)}
+.steps li:hover span,.steps li:focus-visible span,.steps li.flip span{transform:rotateY(0)}
 .steps li b,.steps li span{position:absolute;inset:0;margin:0;padding:22px;border-radius:var(--r);backface-visibility:hidden;-webkit-backface-visibility:hidden;display:flex;flex-direction:column}
 .steps li b{justify-content:flex-end;color:#fff;font:500 1.25rem/1.25 var(--serif);background:radial-gradient(90% 70% at 100% 0,rgba(224,194,122,.22),transparent 60%),linear-gradient(150deg,#6a1c37,var(--garnet) 55%,var(--deep));border:1px solid rgba(224,194,122,.5);box-shadow:0 18px 34px -24px rgba(74,18,36,.7)}
 .steps li b::before{content:counter(s,decimal-leading-zero);position:absolute;left:22px;top:16px;font:400 3.4rem/1 var(--serif);color:var(--lgold)}
@@ -332,4 +333,4 @@ h2[id]{scroll-margin-top:90px}
 .steps li span{transform:rotateY(180deg);justify-content:center;align-items:center;text-align:center;gap:10px;background:#fff;border:1px solid var(--gold);color:var(--ink);font-size:1rem;line-height:1.55}
 .steps li span::before{content:"\2726";font-size:1.7rem;line-height:1;color:var(--gold)}
 @media(max-width:700px){.steps li{height:168px}.steps li b::before{font-size:2.8rem}}
-@media(prefers-reduced-motion:reduce){.steps li{transition:none}}
+@media(prefers-reduced-motion:reduce){.steps li b,.steps li span{transition:none}}
