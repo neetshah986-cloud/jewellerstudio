@@ -16,6 +16,12 @@ Notes: Service pages describe what we offer and how we work. Pricing and timelin
 - [Contact](https://jewellerstudio.com/contact/): Address, WhatsApp +91 90298 72736
 - [Privacy and Terms](https://jewellerstudio.com/privacy-terms/): Privacy and terms of use
 
+## Free Tools
+- [Free Tools](https://jewellerstudio.com/tools/): Free calculators for jewellers and jewellery buyers
+- [Jewellery Price Calculator](https://jewellerstudio.com/tools/jewellery-price-calculator/): Metal value, making charges, GST and total for any jewellery
+- [Gold Price Calculator](https://jewellerstudio.com/tools/gold-price-calculator/): Gold jewellery price with purity (24K, 22K, 18K), wastage, making and GST
+- [Silver Price Calculator](https://jewellerstudio.com/tools/silver-price-calculator/): Silver price with purity (999, 925, 800), making charges and GST
+
 ## Digital Marketing
 - [Digital Marketing overview](https://jewellerstudio.com/digital-marketing/): Digital marketing for jewellery brands: social media management, reels, influencer marketing, Meta Ads, YouTube and WhatsApp marketing, and lead campaigns.
 - [Social Media Management](https://jewellerstudio.com/digital-marketing/social-media-management/): Monthly planning, design and posting across your social pages, handled by one team.

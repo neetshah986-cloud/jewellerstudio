@@ -259,3 +259,37 @@ a.tile:hover h3{color:var(--garnet);text-decoration:underline}
 /* breathing room before footer on pages ending with a plain section */
 main>.block:last-child{padding-bottom:88px}
 @media(max-width:700px){main>.block:last-child{padding-bottom:64px}}
+
+/* free tools: calculators */
+.calc{display:grid;grid-template-columns:1.1fr .9fr;gap:22px;align-items:start}
+.cc,.cres{border-radius:var(--r);padding:28px}
+.cc{background:#fff;border:1px solid var(--mist);box-shadow:0 24px 60px -36px rgba(44,8,22,.4)}
+.cc h2,.cres h2{font-size:1.35rem;max-width:none;margin:0 0 16px}
+.cf{margin:0 0 16px;min-width:0}
+.cf>label,.cf>.lb{display:block;font-weight:600;font-size:.92rem;margin:0 0 6px}
+.cf small{font-weight:400;color:var(--muted)}
+.cin{display:flex;border:1.5px solid var(--mist);border-radius:12px;background:#FBF9F7;overflow:hidden;min-width:0}
+.cin:focus-within{border-color:var(--gold);box-shadow:0 0 0 3px rgba(180,138,60,.25)}
+.cin span{display:flex;align-items:center;padding:0 12px;color:var(--muted);background:rgba(180,138,60,.1);font-size:.92rem;white-space:nowrap}
+.cin input,.cin select{flex:1;min-width:0;width:100%;border:0;background:transparent;color:var(--ink);font:500 1.05rem var(--sans);padding:12px;outline:none;min-height:48px}
+.crow{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.chint{display:block;color:var(--muted);font-size:.82rem;margin:5px 0 0}
+.seg{display:inline-flex;border:1.5px solid var(--mist);border-radius:999px;padding:3px;gap:2px;margin:0 0 10px;background:#FBF9F7}
+.seg button{border:0;background:transparent;color:var(--muted);font:600 .85rem var(--sans);padding:8px 14px;border-radius:999px;cursor:pointer;min-height:40px}
+.seg button[aria-pressed=true]{background:var(--garnet);color:var(--pearl)}
+.cres{background:linear-gradient(155deg,var(--garnet),var(--deep));color:var(--pearl);position:sticky;top:90px}
+.cres h2{color:var(--lgold)}
+.cl{display:flex;justify-content:space-between;gap:16px;padding:9px 0;border-bottom:1px solid rgba(224,194,122,.2);font-size:.95rem}
+.cl span{color:rgba(246,243,239,.82)}.cl b{font-weight:600;white-space:nowrap;font-variant-numeric:tabular-nums}
+.ctot{margin-top:16px;padding-top:16px;border-top:1.5px solid var(--lgold);display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.ctot span{font-size:.88rem;text-transform:uppercase;letter-spacing:.1em;opacity:.85}
+.ctot b{font:500 clamp(1.9rem,6vw,2.6rem)/1.1 var(--serif);color:var(--lgold);font-variant-numeric:tabular-nums}
+.cadj{margin:12px 0 0;font-size:.86rem;color:var(--lgold)}
+.cacts{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.cacts button.btn{cursor:pointer;font:600 1rem var(--sans)}
+.cnote{margin:16px 0 0;font-size:.82rem;color:rgba(246,243,239,.72)}
+.cerr{color:#b3261e;font-size:.88rem;margin:0}
+.eg{margin:14px 0 0;background:#fff;border:1px solid var(--mist);border-radius:14px;padding:14px 18px;color:var(--muted);max-width:760px}
+@media(max-width:860px){.calc{grid-template-columns:1fr}.cres{position:static}}
+@media(max-width:420px){.crow{grid-template-columns:1fr}.cc,.cres{padding:20px}}
+.block .cres .btn.ghost{color:var(--pearl);border-color:rgba(224,194,122,.7)}.block .cres .btn.ghost:hover{background:rgba(224,194,122,.16)}
