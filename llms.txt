@@ -24,6 +24,9 @@ Notes: Service pages describe what we offer and how we work. Pricing and timelin
 - [Gifting Budget Calculator](https://jewellerstudio.com/tools/gifting-budget-calculator/): Plan customer, wedding or staff gifts with packaging, GST, spares and a budget check
 - [Packaging Box Cost Estimator](https://jewellerstudio.com/tools/packaging-box-cost-estimator/): Estimate boxes, pouches and bags needed and their cost, with spares, minimum order and GST
 - [Compare Two Jewellery Quotes](https://jewellerstudio.com/tools/compare-jewellery-quotes/): See which jewellery quote is really cheaper after purity, making charges, wastage and GST
+- [Old Jewellery Exchange Calculator](https://jewellerstudio.com/tools/old-jewellery-exchange-calculator/): Estimate the value of old jewellery when exchanging or selling, with stone weight and the jeweller's deduction
+- [Old Gold Exchange Calculator](https://jewellerstudio.com/tools/old-gold-exchange-calculator/): Old gold value with purity, stone weight and deduction
+- [Old Silver Exchange Calculator](https://jewellerstudio.com/tools/old-silver-exchange-calculator/): Old silver value with purity, stone weight and deduction
 
 ## Digital Marketing
 - [Digital Marketing overview](https://jewellerstudio.com/digital-marketing/): Digital marketing for jewellery brands: social media management, reels, influencer marketing, Meta Ads, YouTube and WhatsApp marketing, and lead campaigns.
