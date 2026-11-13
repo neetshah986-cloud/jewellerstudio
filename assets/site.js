@@ -1,6 +1,6 @@
 (function(){var h=document.getElementById("hdr"),bg=document.getElementById("burger"),items=[].slice.call(document.querySelectorAll(".nav-item")),cats=[].slice.call(document.querySelectorAll(".cat")),dm=matchMedia("(min-width:1240px)"),hv=matchMedia("(min-width:1240px) and (hover:hover)"),t;
 function set(i,o){i.classList.toggle("open",o);i.querySelector(".nav-btn").setAttribute("aria-expanded",o)}
-function sync(){h.classList.toggle("mega-open",dm.matches&&document.querySelector(".mega-item").classList.contains("open"))}
+function sync(){h.classList.toggle("mega-open",dm.matches&&!!document.querySelector(".mega-item.open"))}
 function closeAll(x){items.forEach(function(i){if(i!==x)set(i,false)});sync()}
 function burger(o){h.classList.toggle("nav-open",o);bg.setAttribute("aria-expanded",o);bg.setAttribute("aria-label",o?"Close menu":"Open menu");document.body.classList.toggle("lock",o)}
 function cat(c,o){c.classList.toggle("closed",!o);c.querySelector(".cat-t").setAttribute("aria-expanded",o)}

@@ -318,3 +318,5 @@ main>.block:last-child{padding-bottom:88px}
 @media(max-width:480px){.ct{font-size:.82rem;gap:6px;grid-template-columns:minmax(0,1fr) auto auto}.ct.strong b{font-size:.9rem}.ct b.cokc::after{content:""}.ct.ch b{font-size:.95rem}}
 @media(max-width:420px){.cmp .cc{padding:18px}}
 .chd{margin:16px 0 0;padding:0;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--lgold)}
+@media(min-width:1240px){#megat .mega-in{grid-template-columns:repeat(4,minmax(0,1fr))}}
+h2[id]{scroll-margin-top:90px}
