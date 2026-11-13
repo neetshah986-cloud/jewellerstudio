@@ -255,3 +255,7 @@ a.tile:hover h3{color:var(--garnet);text-decoration:underline}
 @keyframes silk{from{transform:translateX(-2%)}to{transform:translateX(2%)}}
 @media(prefers-reduced-motion:reduce){.phero::before,.phero::after,.hero::before,.hero::after{animation:none}}
 .hero{position:relative;isolation:isolate}
+
+/* breathing room before footer on pages ending with a plain section */
+main>.block:last-child{padding-bottom:88px}
+@media(max-width:700px){main>.block:last-child{padding-bottom:64px}}
