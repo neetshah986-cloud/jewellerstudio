@@ -397,9 +397,9 @@ h2[id]{scroll-margin-top:90px}
 html{scroll-behavior:smooth}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.toc-s a{transition:none}}
 /* blog posts: tighter gap between banner and the jump bar */
-.block:has(>.wrap>.toc){padding-top:24px}
+.block:has(.toc){padding-top:24px}
 .phero:has(+ .block .toc){padding-bottom:52px}
-@media(max-width:700px){.phero:has(+ .block .toc){padding-bottom:40px}.block:has(>.wrap>.toc){padding-top:20px}}
+@media(max-width:700px){.phero:has(+ .block .toc){padding-bottom:40px}.block:has(.toc){padding-top:20px}}
 /* jump bar: scroll affordances */
 .toc-t{display:flex;justify-content:space-between;align-items:center;gap:12px}
 .toc-h{display:none;font:600 .68rem/1.4 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--gd)}
