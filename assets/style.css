@@ -396,3 +396,7 @@ h2[id]{scroll-margin-top:90px}
 .toc-s a:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
 html{scroll-behavior:smooth}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.toc-s a{transition:none}}
+/* blog posts: tighter gap between banner and the jump bar */
+.block:has(>.wrap>.toc){padding-top:24px}
+.phero:has(+ .block .toc){padding-bottom:52px}
+@media(max-width:700px){.phero:has(+ .block .toc){padding-bottom:40px}.block:has(>.wrap>.toc){padding-top:20px}}
