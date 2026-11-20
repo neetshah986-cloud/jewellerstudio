@@ -414,3 +414,7 @@ html{scroll-behavior:smooth}
 @keyframes tocp{0%,100%{box-shadow:0 8px 18px -8px rgba(44,8,22,.7),0 0 0 0 rgba(180,138,60,.45)}50%{box-shadow:0 8px 18px -8px rgba(44,8,22,.7),0 0 0 9px rgba(180,138,60,0)}}
 @media(max-width:700px){.toc-b{width:34px;height:34px;margin-top:-17px}.toc-b.l{left:-4px}.toc-b.r{right:-4px}}
 @media(prefers-reduced-motion:reduce){.toc-h i,.toc-b.r{animation:none}}
+/* blog posts: breathing room between article, FAQ and related sections */
+.prose + h2,.faq + h2{margin-top:60px}
+.faq + h2 + .grid3{margin-top:18px}
+@media(max-width:700px){.prose + h2,.faq + h2{margin-top:48px}}
