@@ -373,3 +373,12 @@ h2[id]{scroll-margin-top:90px}
 .faq summary h3{margin:0;font:inherit;color:inherit;flex:1;min-width:0}
 /* mobile menu: only the label is a link; the empty space toggles the dropdown */
 @media(max-width:1239.98px){.nav-item>.nav-lk{flex:0 0 auto}.nav-item>.nav-chev{flex:1;width:auto;justify-content:flex-end;padding-right:6px;border-bottom:1px solid var(--mist)}}
+/* blog: worked examples and notes */
+.prose h3{font-size:1.15rem;margin:22px 0 6px}
+.prose .ex{background:#fff;border:1px solid var(--mist);border-radius:16px;padding:4px 20px;margin:14px 0 20px}
+.prose .exr{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-bottom:1px solid var(--mist);color:var(--muted);font-size:.97rem}
+.prose .exr b{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+.prose .exr.t{border-bottom:0;color:var(--garnet);font-weight:600}.prose .exr.t b{color:var(--garnet);font:500 1.25rem var(--serif)}
+.prose .note{border-left:3px solid var(--gold);background:rgba(180,138,60,.08);padding:12px 16px;border-radius:0 12px 12px 0;margin:16px 0}
+.prose ol{padding-left:1.3em;margin:8px 0 16px}
+@media(max-width:480px){.prose .ex{padding:2px 14px}.prose .exr{font-size:.92rem;gap:10px}}
