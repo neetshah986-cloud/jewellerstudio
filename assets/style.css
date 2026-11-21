@@ -433,12 +433,12 @@ html{scroll-behavior:smooth}
 /* clients logo marquee */
 .clients{overflow:hidden}
 .cl-m{position:relative;overflow:hidden;margin-top:28px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}
-.cl-track{display:flex;width:max-content;animation:clmv 80s linear infinite}
+.cl-track{display:flex;width:max-content;animation:clmv 85s linear infinite}
 .cl-m:hover .cl-track{animation-play-state:paused}
 .cl-g{display:flex;margin:0;padding:0;list-style:none}
 .cl-g li{flex:0 0 auto;width:220px;margin:0 18px 0 0;padding:0}
 .cl-g img{display:block;width:100%;height:auto;border-radius:14px;box-shadow:0 10px 22px -16px rgba(44,8,22,.6)}
-@keyframes clmv{to{transform:translateX(-50%)}}
-@media(max-width:700px){.cl-g li{width:160px;margin-right:12px}.cl-track{animation-duration:65s}}
+@keyframes clmv{from{transform:translateX(-50%)}to{transform:translateX(0)}}.cl-m + .cl-m{margin-top:18px}.cl-2{animation-duration:95s}
+@media(max-width:700px){.cl-g li{width:160px;margin-right:12px}.cl-track{animation-duration:60s}.cl-2{animation-duration:70s}}
 @media(prefers-reduced-motion:reduce){.cl-m{overflow-x:auto;-webkit-mask-image:none;mask-image:none}.cl-track{animation:none}.cl-g[aria-hidden]{display:none}}
 .cl-g span{display:block;margin-top:10px;text-align:center;font:500 .88rem/1.35 var(--sans);color:var(--muted)}
