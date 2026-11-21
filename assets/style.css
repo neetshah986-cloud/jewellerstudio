@@ -460,3 +460,11 @@ html{scroll-behavior:smooth}
 @media(max-width:899px){.cw-grid{grid-template-columns:repeat(3,1fr)}.cw-grid li:last-child{grid-column:2}}
 @media(max-width:560px){.cw-stats b{font-size:2rem}.cw-stats div{padding:4px 6px}.cw-grid{grid-template-columns:repeat(2,1fr);gap:18px 12px}.cw-grid li:last-child{grid-column:1/-1;width:calc(50% - 6px);justify-self:center}}
 @media(prefers-reduced-motion:reduce){.cw-grid img{transition:none}}
+/* flip cards: clear "click me" hint */
+.steps li::after{content:"\21BB  Hover";position:absolute;top:18px;right:18px;z-index:2;padding:7px 12px;border:1px solid rgba(224,194,122,.6);border-radius:999px;background:rgba(44,8,22,.45);color:var(--lgold);font:600 .66rem/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;pointer-events:none;transition:opacity .25s;animation:stph 2.6s ease-in-out infinite}
+@media(hover:none){.steps li::after{content:"\21BB  Tap"}}
+.steps li:hover::after,.steps li:focus-visible::after,.steps li.flip::after{opacity:0;animation:none}
+@keyframes stph{0%,100%{box-shadow:0 0 0 0 rgba(224,194,122,.55)}60%{box-shadow:0 0 0 9px rgba(224,194,122,0)}}
+.steps li:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+@media(max-width:700px){.steps li::after{top:14px;right:14px}}
+@media(prefers-reduced-motion:reduce){.steps li::after{animation:none}}
