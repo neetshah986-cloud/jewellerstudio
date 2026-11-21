@@ -441,3 +441,4 @@ html{scroll-behavior:smooth}
 @keyframes clmv{to{transform:translateX(-50%)}}
 @media(max-width:700px){.cl-g li{width:160px;margin-right:12px}.cl-track{animation-duration:65s}}
 @media(prefers-reduced-motion:reduce){.cl-m{overflow-x:auto;-webkit-mask-image:none;mask-image:none}.cl-track{animation:none}.cl-g[aria-hidden]{display:none}}
+.cl-g span{display:block;margin-top:10px;text-align:center;font:500 .88rem/1.35 var(--sans);color:var(--muted)}
