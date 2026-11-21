@@ -33,7 +33,7 @@ Notes: Service pages describe what we offer and how we work. Pricing and timelin
 ## Company
 - [About Us](https://jewellerstudio.com/about/): Who we are and what we do
 - [Our Story](https://jewellerstudio.com/about/our-story/): Why Jeweller Studio exists
-- [Our Clients](https://jewellerstudio.com/about/our-clients/): 25 jewellery brands in India and the USA that work with us
+- [Our Clients](https://jewellerstudio.com/about/our-clients/): 30+ jewellery brands in India and overseas that work with us
 - [Meet Our Team](https://jewellerstudio.com/about/meet-our-team/): Jigar Shah, Nikita Butani and Neet Shah
 - [Contact](https://jewellerstudio.com/contact/): Address, WhatsApp +91 90298 72736
 - [Privacy and Terms](https://jewellerstudio.com/privacy-terms/): Privacy and terms of use
